@@ -25,7 +25,8 @@ h2 {
     text-align: center;
 }
 
-.btn--aqua {
+/* start button styling */
+#btn--start, #btn--next {
     color: black;
     background-color: aqua;
     border: 1px solid black;
@@ -35,9 +36,8 @@ h2 {
     cursor: pointer;
 }
 
-.btn--aqua:hover {
+#btn--start:hover, #btn--next:hover {
     background-color: magenta;
     border: 1px solid black;
     color: white;
 }
-
