@@ -25,8 +25,9 @@ h2 {
     text-align: center;
 }
 
-/* start button styling */
-#btn--start, #btn--next {
+/* start button and next button styling */
+#btn--start, 
+#btn--next {
     color: black;
     background-color: aqua;
     border: 1px solid black;
@@ -36,7 +37,15 @@ h2 {
     cursor: pointer;
 }
 
-#btn--start:hover, #btn--next:hover {
+#btn--start:hover, 
+#btn--start:active {
+    background-color: magenta;
+    border: 1px solid black;
+    color: white;
+}
+ 
+#btn--next:hover,
+#btn--next:active {
     background-color: magenta;
     border: 1px solid black;
     color: white;
